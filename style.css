@@ -58,6 +58,7 @@ ul {
   color: white;
 }
 
+/*
 input {
   height: 30px;
   width: 135px;
@@ -67,9 +68,8 @@ input {
   background-color: var(--cor-primaria);
   text-align: center;
   color: rgba(255, 255, 255, 0.726);
-
 }
-
+*/
 .botao {
   border: 2px solid white;
   border-radius: 10px;
