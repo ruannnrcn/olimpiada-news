@@ -29,6 +29,10 @@ h1 {
   color: white;
 }
 
+.container-link {
+  text-align: center;
+}
+
 .flex-container,
 nav {
   display: flex;
