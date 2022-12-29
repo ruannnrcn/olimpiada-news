@@ -148,6 +148,16 @@ footer,
   padding: 5px;
 }
 
+a {
+  color: white;
+}
+a:hover{
+  color: var(--cor-primaria);
+  background-color: var(--cor-secundaria);
+  transition: 0.5s;
+  border: 2px solid var(--cor-primaria);
+}
+
 @media (min-width: 768px) {
   section {
     display: grid;

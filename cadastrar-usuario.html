@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex-container">
+        <img
+          src="./images/olympic-games.png"
+          alt="Imagem Logo Olímpico"
+          class="imagem-logo"
+        />
+        <h1>Olimpiada News</h1>
+        <input type="text" placeholder="buscar..." />
+      </div>
+      <nav>
+        <ul>
+          <li class="botao">Esportes</li>
+          <li class="botao">Medalhistas</li>
+          <li class="botao">
+            <a href="#">Cadastrar Usuário</a>
+          </li>
+          <li class="botao">
+            <a href="./cadastr-noticia.html">Cadastrar Noticia</a>
+          </li>
+          <li class="botao"><a href="./index.html">Home Page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <form action="https://formsubmit.co/prabcn123@gmail.com" method="post">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <label for="nome">Nome:</label><br />
+          <input type="text" name="nome" id="nome" /><br />
+
+          <label for="dataNascimento">Data de Nascimento: </label><br />
+          <input type="date" name="dataNascimento" id="dataNascimento" />
+          <br />
+
+          <label for="sexo">Sexo:</label><br />
+          <input
+            type="radio"
+            name="sexo"
+            id="sexoMasculino"
+            value="Masculino"
+          />
+          Masculino<br />
+          <input type="radio" name="sexo" id="sexoFeminino" value="Feminino" />
+          Feminino <br />
+
+          <input
+            type="radio"
+            name="sexo"
+            id="naoDefinido"
+            value="naoDefinido"
+          />
+          Não Definido<br />
+
+          <label for="senha">Senha:</label><br />
+          <input type="password" name="senha" id="senha" /><br />
+
+          <label for="confirmarSenha">Confirme a Senha:</label>
+          <input type="password" name="confirmarSenha" id="confirmarSenha" />
+          <br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Endereço</legend>
+          <label for="rua">Rua:</label>
+          <input type="text" name="rua" id="rua" /><br />
+
+          <label for="cidade">Cidade:</label>
+          <input type="text" name="cidade" id="cidade" /><br />
+
+          <label for="estado">Estado:</label><br>
+          <input type="radio" name="estado" id="ac" />Acre (AC) <br>
+          <input type="radio" name="estado" id="al" /> Alagoas (AL)<br>
+          <input type="radio" name="estado" id="ap" />Amapá (AP)<br>
+          <input type="radio" name="estado" id="am" /> Amazonas (AM)<br>
+          <input type="radio" name="estado" id="ba" /> Bahia (BA)<br>
+          <input type="radio" name="estado" id="ce" /> Ceará (CE)<br>
+          <input type="radio" name="estado" id="df" /> Distrito Federal (DF)<br>
+          <input type="radio" name="estado" id="es" /> Espírito Santo (ES)<br>
+          <input type="radio" name="estado" id="go" /> Goiás (GO)<br>
+          <input type="radio" name="estado" id="ma" /> Maranhão (MA)<br>
+          <input type="radio" name="estado" id="mt" /> Mato Grosso (MT)<br>
+          <input type="radio" name="estado" id="ms" />Mato Grosso do Sul (MS)<br>
+          <input type="radio" name="estado" id="mg" /> Minas Gerais (MG)<br>
+          <input type="radio" name="estado" id="pa" />Pará (PA)<br>
+          <input type="radio" name="estado" id="pb" />Paraíba (PB)<br>
+          <input type="radio" name="estado" id="pr" />Paraná (PR)<br>
+          <input type="radio" name="estado" id="pe" />Pernambuco (PE)<br>
+          <input type="radio" name="estado" id="pi" />Piauí (PI)<br>
+          <input type="radio" name="estado" id="rj" />Rio de Janeiro (RJ)<br>
+          <input type="radio" name="estado" id="rn" />Rio Grande do Norte (RN)<br>
+          <input type="radio" name="estado" id="rs" />Rio Grande do Sul (RS)<br>
+          <input type="radio" name="estado" id="ro" />Rondônia (RO)<br>
+          <input type="radio" name="estado" id="rr" />Roraima (RR)<br>
+          <input type="radio" name="estado" id="sc" />Santa Catarina (SC)<br>
+          <input type="radio" name="estado" id="sp" />São Paulo (SP)<br>
+          <input type="radio" name="estado" id="se" />Sergipe (SE)<br>
+          <input type="radio" name="estado" id="to" />Tocantins (TO)<br>
+
+          <label for="cep">CEP:</label>
+          <input type="text" name="cep" id="cep" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Esportes de Interesse</legend>
+          <label for="Esportes"></label>
+          <input type="checkbox" name="opcao" id="volei" /> Vôlei <br />
+          <input type="checkbox" name="opcao" id="handball" /> Handball <br />
+          <input type="checkbox" name="opcao" id="futsal" /> Futsal <br />
+          <input type="checkbox" name="opcao" id="basquete" /> Basquete <br />
+          <input type="checkbox" name="opcao" id="surf" /> Surf <br />
+        </fieldset>
+      </form>
+    </section>
+
+    <button type="submit">Enviar Cadastro</button>
+
+    <footer></footer>
+  </body>
+</html>
