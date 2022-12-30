@@ -186,6 +186,7 @@ a:hover{
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
   }
 
   p,
@@ -204,12 +205,14 @@ a:hover{
   .imagem-logo {
     width: 15%;
   }
+  
 }
 
 @media (min-width: 1200px) {
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
   }
 
   p,
