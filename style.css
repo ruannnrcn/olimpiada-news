@@ -10,6 +10,7 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
+/*header*/
 
 header {
   display: block;
@@ -62,7 +63,6 @@ ul {
   flex-wrap: wrap;
   color: white;
 }
-
 
 input {
   height: 25px;
@@ -249,7 +249,7 @@ a:hover {
     width: 12%;
   }
 
-  input{
+  input {
     width: 250px;
     height: 40px;
     font-size: 20px;
