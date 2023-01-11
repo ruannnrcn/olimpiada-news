@@ -27,6 +27,7 @@ header {
 
 h1 {
   color: white;
+  font-size: 10px;
 }
 
 .container-link {
@@ -62,18 +63,16 @@ ul {
   color: white;
 }
 
-/*
+
 input {
-  height: 30px;
-  width: 135px;
+  height: 25px;
+  width: 100px;
   border: 1px solid black;
   border-radius: 20px;
   font-weight: bold;
-  background-color: var(--cor-primaria);
   text-align: center;
-  color: rgba(255, 255, 255, 0.726);
 }
-*/
+
 .botao {
   border: 2px solid white;
   border-radius: 10px;
@@ -151,11 +150,30 @@ footer,
 a {
   color: white;
 }
-a:hover{
+a:hover {
   color: var(--cor-primaria);
   background-color: var(--cor-secundaria);
   transition: 0.5s;
   border: 2px solid var(--cor-primaria);
+}
+
+@media (max-width: 480px) {
+  nav,
+  li {
+    font-size: 10px;
+  }
+
+  article,
+  p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  .imagem-logo {
+    width: 80px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -205,7 +223,6 @@ a:hover{
   .imagem-logo {
     width: 15%;
   }
-  
 }
 
 @media (min-width: 1200px) {
@@ -230,5 +247,11 @@ a:hover{
 
   .imagem-logo {
     width: 12%;
+  }
+
+  input{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
   }
 }
