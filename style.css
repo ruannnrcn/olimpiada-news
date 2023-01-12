@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root {
   --cor-primaria: rgb(29, 28, 121);
-  --cor-secundaria: rgb(172, 30, 5);
+  --cor-secundaria: rgb(179, 21, 118);
 }
 
 * {
@@ -95,10 +95,6 @@ input {
   width: 12%;
 }
 
-img {
-  width: 100%;
-}
-
 figcaption {
   color: #555;
   font-size: 10px;
@@ -121,17 +117,11 @@ p {
   font-size: 10px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px 90px 10px 90px;
-}
-
 article {
   border: 1px solid var(--cor-secundaria);
-  margin: 8px 8px 2px 8px;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 380px;
 }
 
 footer,
@@ -158,101 +148,23 @@ a:hover {
   border: 2px solid var(--cor-primaria);
 }
 
-@media (max-width: 480px) {
-  nav,
-  li {
-    font-size: 10px;
-  }
-
-  article,
-  p {
-    font-size: 12px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-  .imagem-logo {
-    width: 80px;
-  }
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
 }
 
-@media (min-width: 768px) {
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  p,
-  h2,
-  nav {
-    font-size: 15px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-  figcaption {
-    font-size: 14px;
-  }
-
-  .imagem-logo {
-    width: 15%;
-  }
+img {
+  width: 348px;;
 }
 
-@media (min-width: 1024px) {
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-  }
-
-  p,
-  h2,
-  nav {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 47px;
-  }
-  figcaption {
-    font-size: 17px;
-  }
-
-  .imagem-logo {
-    width: 15%;
-  }
+main{
+  padding: 30px;
 }
 
-@media (min-width: 1200px) {
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;
-  }
-
-  p,
-  h2,
-  nav {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 46px;
-  }
-  figcaption {
-    font-size: 17px;
-  }
-
-  .imagem-logo {
-    width: 12%;
-  }
-
-  input {
-    width: 250px;
-    height: 40px;
-    font-size: 20px;
-  }
+.figure{
+  width: 450px;
+  height: auto;
 }
