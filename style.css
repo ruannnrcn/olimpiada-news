@@ -125,6 +125,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px 90px 10px 90px;
 }
 
