@@ -28,7 +28,7 @@ header {
 
 h1 {
   color: white;
-  font-size: 10px;
+  font-size: 55px;
 }
 
 .container-link {
@@ -62,6 +62,7 @@ ul {
   list-style: none;
   flex-wrap: wrap;
   color: white;
+  font-size: 15px;
 }
 
 input {
@@ -140,12 +141,14 @@ footer,
 
 a {
   color: white;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
 }
 a:hover {
   color: var(--cor-primaria);
   background-color: var(--cor-secundaria);
   transition: 0.5s;
-  border: 2px solid var(--cor-primaria);
 }
 
 section {
@@ -157,14 +160,14 @@ section {
 }
 
 img {
-  width: 348px;;
+  width: 348px;
 }
 
-main{
+main {
   padding: 30px;
 }
 
-.figure{
+.figure {
   width: 450px;
   height: auto;
 }
