@@ -4,16 +4,9 @@
 //ctrl + ;
 
 let main = document.querySelector("main");
+let h1 = document.querySelector("h1");
 
-function toDark() {
-  main.classList.add("dark");
-  main.classList.remove("light");
+function darkMode() {
+  main.classList.toggle("dark");
+  h1.classList.toggle("darkText");
 }
-
-function toLight() {
-  main.classList.add("light");
-  main.classList.remove("dark");
-}
-
-toDark;
-toLight;
